@@ -1,0 +1,19 @@
+/*++++++ ROBDRUMS SVG STYLES ++++++*/
+.robdrums-svg {
+    height: 300px;
+    width: 300px;
+    opacity: 0.3;
+}
+.robdrums-svg:hover {
+    animation-name: rdlogoOne;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+    transform-origin: 50% 50%;
+}
+
+/*++++++ ROBDRUMS SVG ANIMATIONS ++++++*/
+@keyframes rdlogoOne {
+    from { transform: rotate(0deg); }
+    to   { transform: rotate(360deg); }
+    100% { opacity: 8; }
+}

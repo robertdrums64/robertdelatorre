@@ -28,19 +28,16 @@ body {
 
 /*++++++ MAIN PAGE MENU ICONS ++++++*/
 .main-page {
-    padding: 35% 0%;
+    padding: 15% 0%;
 }
 .main-logo-cont {
     text-align: center;
 }
-#robdrums-logo-one {
+/* .robdrums-svg {
     height: 300px;
     width: 300px;
     opacity: 0.55;
-}
-#robdrums-logo-one:hover {
-    opacity: 0.8;
-}
+} */
 
 /*++++++ SOCIAL MENU ICONS ++++++*/
 .social-bar-main {
