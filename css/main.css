@@ -64,11 +64,11 @@ body {
   margin: 6px 1px;
 }
 .fa-linkedin:hover {
-    color: rgb(114, 146, 216);
+    color: rgb(45, 112, 255);
 }
 .fa-youtube:hover {
-    color: rgb(139, 68, 68);
+    color: #f50202;
 }
 .fa-instagram:hover {
-    color: rgb(52, 104, 182);
+    color: rgb(255, 145, 0);
 }
