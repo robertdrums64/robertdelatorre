@@ -4,17 +4,49 @@
 }
 .main-logo-cont {
     text-align: center;
+    text-shadow: 12px 12px;
 }
 #main-svg-cont {
     height: 65%;
     width: 65%;
     opacity: 0.8;
+    filter:blur(7px);
+    animation: robdrumsLogo 5s ease-in-out forwards;
 }
 #main-svg-cont:hover {
-    animation: robdrumsLogo 0.2s infinite;
+    /* animation: robdrumsLogoTwo 4s infinite; */
+}
+#circle:hover {
+    filter:blur(5px);
+}
+#drum:hover {
+    
+}
+#crown:hover {
+}
+#signature:hover {
+    
+}
+#text {
+}
+@keyframes robdrumsLogo {
+    100% {filter:blur(0px);}
+}
+@keyframes robdrumsLogoTwo {
+
 }
 
-@keyframes robdrumsLogo {
-    50%  { margin-right: 45px; fill: rgb(62, 62, 173) }
-    100%  { margin-left: 45px; fill:rgb(184, 63, 63) }
+/*++++++ ROBDRUMS INIT SVG STYLES ++++++*/
+#cowbell:hover {
+    animation: cowBell 0.3s infinite;
+}
+@keyframes cowBell{
+    50%  { transform: rotate(8deg); }
+    100%  { transform: rotate(-8deg); }
+}
+#drumtop:hover {
+    animation: drumTop 0.3s infinite;
+}
+@keyframes drumTop {
+    100% { transform: scale(0.8); }
 }
