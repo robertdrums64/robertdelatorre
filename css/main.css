@@ -25,20 +25,6 @@ body {
     padding: 19px;
 }
 
-
-/*++++++ MAIN PAGE MENU ICONS ++++++*/
-.main-page {
-    padding: 15% 0%;
-}
-.main-logo-cont {
-    text-align: center;
-}
-/* .robdrums-svg {
-    height: 300px;
-    width: 300px;
-    opacity: 0.55;
-} */
-
 /*++++++ SOCIAL MENU ICONS ++++++*/
 .social-bar-main {
     top: 0;
@@ -65,10 +51,18 @@ body {
 }
 .fa-linkedin:hover {
     color: rgb(45, 112, 255);
+    animation: rotate 1s 1;
 }
 .fa-youtube:hover {
     color: #f50202;
+    animation: rotate 1s 1;
 }
 .fa-instagram:hover {
     color: rgb(255, 145, 0);
+    animation: rotate 1s 1;
+}
+
+@keyframes rotate {
+    0%  { transform: rotate(0deg);}
+   100% { transform: rotate(-360deg);}  
 }
