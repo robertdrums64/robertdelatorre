@@ -8,7 +8,7 @@ body {
 /*++++++ MAIN PAGE MENU ICONS ++++++*/
 .iconbar {
     overflow: hidden;
-    border: 1px solid rgb(80, 80, 80);
+    /* border: 1px solid rgb(80, 80, 80); */
     position: fixed;
     bottom: 0;
     width: 100%;
@@ -20,9 +20,20 @@ body {
     padding: 25px;
     text-decoration: none;
 }
-
 .a-container {
     padding: 19px;
+}
+#cowbell {
+    width: 4%;
+    height: 4%;
+    stroke: black;
+    stroke-width: 2%;
+}
+#drumtop {
+    width: 5px;
+    height: 5px;
+    /* stroke: black;
+    stroke-width: 2%; */
 }
 
 /*++++++ SOCIAL MENU ICONS ++++++*/
@@ -34,15 +45,14 @@ body {
     color: antiquewhite;
     text-align: center;
     background-color: rgb(255, 255, 255);
-    border: 1px solid rgb(80, 80, 80);
-    border-radius: 0px 0px 0px 5px;
+    /* border: 1px solid rgb(80, 80, 80);
+    border-radius: 0px 0px 0px 5px; */
 }
 .social-bar-cont {
     margin-top: 1%;
-    font-size: 25px;
+    font-size: 22px;
 }
 .fa {
-  font-size: 55px;
   color: rgb(80, 80, 80);
   width: 45px;
   text-align: center;
