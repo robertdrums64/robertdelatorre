@@ -3,21 +3,19 @@
     padding: 15%;
 }
 .main-logo-cont {
+    margin-top: 75%;
     text-align: center;
     text-shadow: 12px 12px;
 }
-#main-svg-cont {
+/* #main-svg-cont {
+    filter:invert(1);
     height: 65%;
     width: 65%;
-    opacity: 0.8;
     filter:blur(7px);
+    fill: white;
     animation: robdrumsLogo 5s ease-in-out forwards;
-    background: url("../images/vault.jpeg");
-    background-size: cover;
-    background-position: center;
-    z-index: -5;
-}
-#circle:hover {
+} */
+/* #circle:hover {
     filter:blur(5px);
     fill: rgba(0, 162, 255, 0.2);
     opacity: 0.1;
@@ -33,6 +31,9 @@
 #signature:hover {
     fill: rgba(0, 162, 255, 0.2);
     opacity: 0.1;
+} */
+#circle, #crown, #drum, #signature, #text {
+    
 }
 @keyframes robdrumsLogo {
     100% {filter:blur(0px);}
@@ -63,7 +64,7 @@
     to { transform: rotate(360deg); }
 }
 #cymbal:hover {
-    animation: cymbalShake 0.2s 2;
+    animation: cymbalShake 0.2s infinite;
 }
 @keyframes cymbalShake {
     50%  { transform: rotateY(60deg);}

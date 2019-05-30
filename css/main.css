@@ -13,7 +13,6 @@ body{
     bottom: 0;
     width: 100%;
     height: 55px;
-    /* text-align: center; */
     margin-left: 20%;
 }
 .iconbar a {
@@ -40,6 +39,28 @@ body{
     width: 6%;
     height: 6%;
 }
+
+/*++++++ BACKGROUND LOOPING IMAGES ++++++*/
+.background-images {
+    position: fixed;
+    margin-top: -45%;
+    margin-left: -15%;
+    z-index: -1;
+
+}
+#background-images img{
+    height: 48%;
+    width: 44%;
+}
+.rdmask {
+    margin-top: -48%;
+}
+.rdmask img {
+    height: 64%;
+    width: 64%;
+}
+
+
 /*++++++ SOCIAL MENU ICONS WITH A KEYFRAME ++++++*/
 .social-bar-main {
     overflow: hidden;
