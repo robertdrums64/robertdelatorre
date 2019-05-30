@@ -12,12 +12,34 @@
     opacity: 0.8;
     filter:blur(7px);
     animation: robdrumsLogo 5s ease-in-out forwards;
+    background: url("../images/vault.jpeg");
+    background-size: cover;
+    background-position: center;
+    z-index: -5;
 }
 #circle:hover {
     filter:blur(5px);
+    fill: rgba(0, 162, 255, 0.2);
+    opacity: 0.1;
+}
+#crown:hover {
+    fill: rgba(0, 162, 255, 0.2);
+    opacity: 0.1;
+}
+#drum:hover {
+    fill: rgba(0, 162, 255, 0.2);
+    opacity: 0.1;
+}
+#signature:hover {
+    fill: rgba(0, 162, 255, 0.2);
+    opacity: 0.1;
 }
 @keyframes robdrumsLogo {
     100% {filter:blur(0px);}
+}
+#main-svg-cont .cls-1:hover {
+    fill: rgba(0, 162, 255, 0.2);
+    opacity: 0.1;
 }
 
 /*++++++ ROBDRUMS INIT SVG STYLES ++++++*/
