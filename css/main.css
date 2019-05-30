@@ -31,43 +31,47 @@ body {
     width: 6%;
     height: 6%;
 }
+#sticks {
+    width: 6%;
+    height: 6%;
+}
+#cymbal {
+    width: 6%;
+    height: 6%;
+}
 
 /*++++++ SOCIAL MENU ICONS WITH A KEYFRAME ++++++*/
 .social-bar-main {
+    overflow: hidden;
     top: 0;
-    float: right;
-    width: 175px;
-    height: 40px;
+    position: fixed;
     color: antiquewhite;
     text-align: center;
     background-color: rgb(255, 255, 255);
-    /* border: 1px solid rgb(80, 80, 80);
-    border-radius: 0px 0px 0px 5px; */
+    margin-left: 40%;
 }
 .social-bar-cont {
-    margin-top: 1%;
     font-size: 32px;
 }
 .fa {
   color: rgb(80, 80, 80);
   width: 45px;
-  text-align: center;
   text-decoration: none;
   margin: 6px 1px;
 }
 .fa-linkedin:hover {
     color: rgb(45, 112, 255);
-    animation: rotate 1s 1;
+    animation: socialAni 1s 1;
 }
 .fa-youtube:hover {
     color: #f50202;
-    animation: rotate 1s 1;
+    animation: socialAni 1s 1;
 }
 .fa-instagram:hover {
     color: rgb(255, 145, 0);
-    animation: rotate 1s 1;
+    animation: socialAni 1s 1;
 }
-@keyframes rotate {
+@keyframes socialAni {
     0%  { transform: rotateY(0deg);}
    100% { transform: rotateY(-360deg);}  
 }
