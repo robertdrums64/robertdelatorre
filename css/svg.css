@@ -1,4 +1,27 @@
-/*++++++ ROBDRUMS INIT SVG STYLES ++++++*/
+/*++++++ ROBDRUMS LOGO MASK STYLES - MAIN PAGE ++++++*/
+/* #outer { opacity: 0.5; }
+#inner-major { opacity: 0.5; }
+#in-drum-major { opacity: 0.5; }
+#b-bottom { opacity: 0.5; }
+#b-top { opacity: 0.5; }
+#r-top { opacity: 0.5; }
+#r2-top { opacity: 0.5; }
+#o-center { opacity: 0.5; }
+#d-center { opacity: 0.5; }
+#r-center { opacity: 0.5; }
+#d-center { opacity: 0.5; } */
+/* #inner-major, #in-drum-major, #b-bottom, #b-top, #r-top, #r2-top, #o-center,#d-center, #r-center, #d-center:hover {
+    animation: logoAction 1s 1;
+} */
+
+/* #inner-major, #in-drum-major {
+    animation: logoAction 1s forwards;
+} */
+/* animation: logoAction 5s forwards; */
+/* @keyframes logoAction{
+    50%   { opacity: 0; }
+  100%   { opacity: 1; }
+} */
 
 /*++++++ MAIN MENU SVG ANIMATIONS ++++++*/
 #cowbell:hover {

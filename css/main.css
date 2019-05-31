@@ -44,7 +44,7 @@ body{
 /*++++++ MAIN PAGE STYLES ++++++*/
 .main-coverpage {
     padding: 10%;
-    margin-left: 5%;
+    margin-left: 15%;
 }
 .main-logo-cont {
     position: fixed;
@@ -62,10 +62,12 @@ body{
     margin-top: 10%;
     z-index: -1;
     border: solid 1px orange;
+    animation-play-state: paused;
 }
 #background-images img{
     height: 100%;
     width: 100%;
+    animation-play-state: paused;
 }
 
 /*++++++ MAIN MENU STYLES - ICONS ONLY ++++++*/
@@ -84,7 +86,7 @@ body{
     text-decoration: none;
 }
 #cowbell, #drumtop, #sticks, #cymbal {
-    padding: 15px;
+    padding: 20px;
     width: 6%;
     height: 6%;
 }
