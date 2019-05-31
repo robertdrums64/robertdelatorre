@@ -1,49 +1,6 @@
 /*++++++ ROBDRUMS INIT SVG STYLES ++++++*/
-.main-coverpage {
-    padding: 15%;
-}
-.main-logo-cont {
-    margin-top: 75%;
-    text-align: center;
-    text-shadow: 12px 12px;
-}
-/* #main-svg-cont {
-    filter:invert(1);
-    height: 65%;
-    width: 65%;
-    filter:blur(7px);
-    fill: white;
-    animation: robdrumsLogo 5s ease-in-out forwards;
-} */
-/* #circle:hover {
-    filter:blur(5px);
-    fill: rgba(0, 162, 255, 0.2);
-    opacity: 0.1;
-}
-#crown:hover {
-    fill: rgba(0, 162, 255, 0.2);
-    opacity: 0.1;
-}
-#drum:hover {
-    fill: rgba(0, 162, 255, 0.2);
-    opacity: 0.1;
-}
-#signature:hover {
-    fill: rgba(0, 162, 255, 0.2);
-    opacity: 0.1;
-} */
-#circle, #crown, #drum, #signature, #text {
-    
-}
-@keyframes robdrumsLogo {
-    100% {filter:blur(0px);}
-}
-#main-svg-cont .cls-1:hover {
-    fill: rgba(0, 162, 255, 0.2);
-    opacity: 0.1;
-}
 
-/*++++++ ROBDRUMS INIT SVG STYLES ++++++*/
+/*++++++ MAIN MENU SVG ANIMATIONS ++++++*/
 #cowbell:hover {
     animation: cowBell 0.2s infinite;
 }
