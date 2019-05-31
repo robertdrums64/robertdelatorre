@@ -12,13 +12,12 @@
 #d-center { opacity: 0.5; } */
 /* #inner-major, #in-drum-major, #b-bottom, #b-top, #r-top, #r2-top, #o-center,#d-center, #r-center, #d-center:hover {
     animation: logoAction 1s 1;
-} */
-
-/* #inner-major, #in-drum-major {
+}
+#inner-major, #in-drum-major {
     animation: logoAction 1s forwards;
-} */
-/* animation: logoAction 5s forwards; */
-/* @keyframes logoAction{
+}
+animation: logoAction 5s forwards;
+@keyframes logoAction{
     50%   { opacity: 0; }
   100%   { opacity: 1; }
 } */
