@@ -8,18 +8,18 @@ body{
 /*++++++ SOCIAL MENU ICONS WITH A KEYFRAME ++++++*/
 .social-bar-main {
     top: 1%;
-    overflow: hidden;
     position: fixed;
-    color: antiquewhite;
-    text-align: center;
-    background-color: rgb(255, 255, 255);
-    margin-left: 40%;
+    width: 100%;
 }
 .social-bar-cont {
+    width: 100%;
+    text-align: center;
+}
+.social-bar-cont a {
     font-size: 32px;
 }
 .fa {
-  color: rgb(80, 80, 80);
+  color: rgb(53, 53, 53);
   width: 45px;
   text-decoration: none;
   margin: 6px 6px;
@@ -50,51 +50,40 @@ body{
 }
 
 /*++++++ MAIN PAGE STYLES ++++++*/
-.main-coverpage {
-    padding: 10%;
-    margin-left: 15%;
-}
-.main-logo-cont {
-    position: fixed;
-    margin-top: 10%;
-}
-#main-svg-cont {
-    filter:invert(1);
-    height: 170%;
-    width: 170%;
-}
-
-/*++++++ BACKGROUND LOOPING IMAGES ++++++*/
-.background-images {
-    position: fixed;
-    margin-top: 10%;
-    z-index: -1;
-    border: solid 1px orange;
-    animation-play-state: paused;
-}
-#background-images img{
-    height: 100%;
+.main-content {
     width: 100%;
-    animation-play-state: paused;
+    overflow: hidden;
+    margin-top: 10%;
+}
+ .main-content-cont {
+    width: 100%;
+    text-align: center;
+ }
+#main-svg-cont {
+    fill: white;
+    background-image: url("/images/robgif.gif");
+    background-size: cover;
+    width: 50%;
 }
 
 /*++++++ MAIN MENU STYLES - ICONS ONLY ++++++*/
-.iconbar {
-    overflow: hidden;
-    bottom: 8px;
+.menu-iconbar {
     position: fixed;
-    color: antiquewhite;
-    text-align: center;
-    background-color: rgb(255, 255, 255);
+    bottom: 0;
     width: 100%;
 }
-/* .a-container {
-} */
-.iconbar a {
+.menu-iconbar-cont {
+    width: 100%;
+    text-align: center;
+}
+.menu-iconbar-cont a {
     text-decoration: none;
 }
 #cowbell, #drumtop, #sticks, #cymbal {
+    text-align: center;
     padding: 20px;
     width: 6%;
     height: 6%;
+    /* stroke: black;
+    stroke-width: 1px; */
 }
