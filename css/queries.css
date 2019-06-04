@@ -3,3 +3,8 @@
         margin-top: 50%;
     }
 }
+@media screen and (max-width: 1400px) {
+    .main-content {
+        margin-top: 40%;
+    }
+}

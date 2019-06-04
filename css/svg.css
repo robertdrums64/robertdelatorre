@@ -24,26 +24,26 @@ animation: logoAction 5s forwards;
 
 /*++++++ MAIN MENU SVG ANIMATIONS ++++++*/
 #cowbell:hover {
-    animation: cowBell 0.2s infinite;
+    animation: cowBell 0.2s 5;
 }
 @keyframes cowBell{
     50%  { transform: rotate(10deg); }
     100%  { transform: rotate(-10deg); }
 }
 #drumtop:hover {
-    animation: drumTop 0.3s infinite;
+    animation: drumTop 0.3s 5;
 }
 @keyframes drumTop {
     100% { transform: scale(0.8); }
 }
 #sticks:hover {
-    animation: sticksSpin 0.5s infinite;
+    animation: sticksSpin 0.5s 5;
 }
 @keyframes sticksSpin {
     to { transform: rotate(360deg); }
 }
 #cymbal:hover {
-    animation: cymbalShake 0.2s infinite;
+    animation: cymbalShake 0.2s 5;
 }
 @keyframes cymbalShake {
     50%  { transform: rotateY(60deg);}

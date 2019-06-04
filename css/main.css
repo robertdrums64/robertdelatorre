@@ -62,8 +62,10 @@ body{
 #main-svg-cont {
     fill: white;
     background-image: url("../images/robgif.gif");
+    background-color: #545454e9;
     background-size: cover;
-    width: 40%;
+    background-blend-mode: lighten;
+    width: 55%;
 }
 
 /*++++++ MAIN MENU STYLES - ICONS ONLY ++++++*/
