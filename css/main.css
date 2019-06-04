@@ -61,7 +61,7 @@ body{
  }
 #main-svg-cont {
     fill: white;
-    background-image: url("./images/robgif.gif");
+    background-image: url("../images/robgif.gif");
     background-size: cover;
     width: 40%;
 }
