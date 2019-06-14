@@ -1,0 +1,24 @@
+.gallery-row {
+    display: flex;
+    /* flex-wrap: wrap; */
+    padding: 0 4px;
+}
+.gallery-col {
+    flex: 33%;
+    max-width: 33%;
+    padding: 0 4px;
+}
+img {
+    margin-top: 8px;
+    vertical-align: middle;
+    border-radius: 15%;
+}
+/* .column-one {
+
+}
+.column-two {
+    
+}
+.column-three {
+    
+} */
