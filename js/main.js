@@ -1,20 +1,14 @@
 $(document).ready(function(){
-    var cowbell = $("#cowbell");
-    var drumtop = $("#drumtop");
-    var sticks = $("#sticks");
-    var cymbal = $("#cymbal");
+    // const cowbell = $("#cowbell");
+    // const drumtop = $("#drumtop");
+    // const sticks = $("#sticks");
+    // const cymbal = $("#cymbal");
+    const mainPage = $(".main-content-wrap");
+    const links = $(".social-bar-main");
+    const mainMenu = $(".menu-iconbar");
 
-    cowbell.click(function(){
-        alert('HI!');
-    });
-    drumtop.click(function(){
-        alert('HI!');
-    });
-    sticks.click(function(){
-        alert('HI!');
-    });
-    cymbal.click(function(){
-        alert('HI!');
-    });
+    $(mainPage).load('./pages/content.html');
+    $(links).load('./pages/links.html');
+    $(mainMenu).load('./pages/menu.html');
 
 });

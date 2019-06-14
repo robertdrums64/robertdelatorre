@@ -3,8 +3,8 @@ $(document).ready(function(){
     var rdInner = $('.rd-inner');
     var outer = $('#outer');
     // var gifImages = $('#gif-images');
-    var gifImages = $('#background-images img');
-    var gifLogo = $('.main-logo-cont');
+    // var gifImages = $('#background-images img');
+    // var gifLogo = $('.main-logo-cont');
 
     outer.hover(function(){
         // alert("HI!");

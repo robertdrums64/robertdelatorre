@@ -55,13 +55,15 @@ body{
     overflow: hidden;
     text-align: center;
 }
- .main-content-wrap {
-    /* top: 0;
+.main-content-wrap {
+    /* border: solid 1px blue; */
+    top: 0;
     right: 0;
     bottom: 0;
     left: 0;
-    margin: auto; */
- }
+    margin: auto;
+    margin-top:40%;
+}
 #main-svg-cont {
     fill: white;
     background-image: url("../images/robgif.gif");
