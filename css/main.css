@@ -53,11 +53,14 @@ body{
 .main-content {
     width: 100%;
     overflow: hidden;
-    margin-top: 10%;
-}
- .main-content-cont {
-    width: 100%;
     text-align: center;
+}
+ .main-content-wrap {
+    /* top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto; */
  }
 #main-svg-cont {
     fill: white;
@@ -65,7 +68,7 @@ body{
     background-color: #545454e9;
     background-size: cover;
     background-blend-mode: lighten;
-    width: 55%;
+    width: 45%;
 }
 
 /*++++++ MAIN MENU STYLES - ICONS ONLY ++++++*/
