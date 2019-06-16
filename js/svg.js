@@ -6,9 +6,9 @@ $(document).ready(function(){
     // var gifImages = $('#background-images img');
     // var gifLogo = $('.main-logo-cont');
 
-    outer.hover(function(){
-        // alert("HI!");
-        rdInner.fadeToggle(500, 0.0);
-    });
+    // outer.hover(function(){
+    //     alert("HI!");
+    //     rdInner.fadeToggle(500, 0.0);
+    // });
 
 });
