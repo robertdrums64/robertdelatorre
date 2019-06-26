@@ -7,9 +7,12 @@ body{
     top: 1%;
     position: fixed;
     width: 100%;
+    height: 14%;
+    z-index: 1;
 }
 .social-bar-cont {
     width: 100%;
+    height: 19%;
     text-align: center;
 }
 .social-bar-cont a {
@@ -58,7 +61,7 @@ body{
 }
 .main-content-wrap {
     position: absolute;
-    overflow: hidden;
+    overflow: scroll;
     top: 0;
     bottom: 0;
     left: 0;
@@ -89,6 +92,7 @@ body{
     position: fixed;
     bottom: 0;
     width: 100%;
+    height: 25%;
 }
 .menu-iconbar-cont {
     width: 100%;
@@ -99,9 +103,9 @@ body{
 }
 #cowbell, #drumtop, #sticks, #cymbal {
     text-align: center;
-    padding: 20px;
+    padding: 12px;
     width: 10%;
     height: 10%;
-    /* stroke: black;
-    stroke-width: 1px; */
+    stroke: black;
+    stroke-width: 1px;
 }
