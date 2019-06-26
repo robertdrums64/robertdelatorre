@@ -51,20 +51,34 @@ body{
 
 /*++++++ MAIN PAGE STYLES ++++++*/
 .main-content {
+    position: absolute;
+    top: 10%;
     width: 100%;
+    height: 65%;
     overflow: hidden;
     text-align: center;
+    /* border: solid 1px blue; */
 }
 .main-content-wrap {
-    /* border: solid 1px blue; */
+    position: absolute;
+    overflow: hidden;
     top: 0;
-    right: 0;
     bottom: 0;
     left: 0;
+    right: 0;
+    width: 100%;
+    height: 95%;
     margin: auto;
-    margin-top:40%;
+    /* border: solid 1px red; */
 }
 #main-svg-cont {
+    position: absolute;
+    overflow: hidden;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
     fill: white;
     background-image: url("../images/robgif.gif");
     background-color: #545454e9;
