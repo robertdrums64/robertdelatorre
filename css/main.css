@@ -79,6 +79,8 @@ body{
     margin: auto;
     /* border: solid 1px red; */
 }
+
+/*++++++ MAIN SVG ++++++*/
 #main-svg-cont {
     position: absolute;
     overflow: hidden;
@@ -93,6 +95,74 @@ body{
     background-blend-mode: lighten;
     width: 45%;
     /* border: solid 1px black; */
+}
+.text {
+    stroke: rgb(18, 18, 18);
+    stroke-width: 4px;   
+}
+#test-r {
+    fill: rgb(255, 255, 255);
+}
+#test-o {
+    fill: rgb(255, 255, 255);
+}
+#test-b {
+    fill: rgb(255, 255, 255);
+}
+#test-d {
+    fill: rgb(255, 255, 255);
+}
+#test-rr {
+    fill: rgb(255, 255, 255);
+}
+#test-u{
+    fill: rgb(255, 255, 255);
+}
+#test-m {
+    fill: rgb(255, 255, 255);
+}
+#test-s {
+    fill: rgb(255, 255, 255);
+}
+#test-r:hover {
+    fill: rgb(254, 14, 14);
+}
+#test-o:hover {
+    fill: rgb(34, 199, 54);
+}
+#test-b:hover {
+    fill: rgb(255, 255, 0);
+}
+#test-d:hover {
+    fill: rgb(91, 141, 249);
+}
+#test-rr:hover {
+    fill: rgb(252, 0, 214);
+}
+#test-u:hover {
+    fill: rgb(48, 254, 250);
+}
+#test-m:hover {
+    fill: rgb(255, 183, 0);
+}
+#test-s:hover {
+    fill: rgb(111, 255, 98);
+}
+#circle {
+    stroke: rgb(255, 0, 0);
+    stroke-width: 4px;
+}
+#drum {
+    stroke: rgb(223, 211, 80);
+    stroke-width: 4px;
+}
+#crown {
+    stroke: rgb(63, 118, 186);
+    stroke-width: 4px;
+}
+#signature {
+    stroke: rgb(40, 138, 48);
+    stroke-width: 4px;
 }
 
 /*++++++ MAIN MENU STYLES - ICONS ONLY ++++++*/

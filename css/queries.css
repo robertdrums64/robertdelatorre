@@ -8,4 +8,7 @@
     input[type=submit] {
         width: 55%;
     }
+    #cowbell, #drumtop, #sticks, #cymbal {
+        width: 8%;
+    }
 }
