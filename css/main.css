@@ -126,6 +126,11 @@ body{
 h1 {
     font-family: 'Fredericka the Great', cursive;
 }
+label {
+    font-family: 'Amatic SC', cursive;
+    font-size: 24px;
+    font-weight: bold;
+}
 input {
     width: 25%;
     padding: 12px 6px;
@@ -133,12 +138,13 @@ input {
 }
 textarea {
     width: 25%;
-    padding: 12px 6px;
+    padding: 6px 6px;
     margin: 8px 0;
 }
 input[type=submit] {
     width: 25%;
     font-family: 'Amatic SC', cursive;
+    font-weight: bold;
     color: wheat;
     font-size: 24px;
     background-color: rgb(47, 99, 177);
