@@ -101,52 +101,41 @@ body{
     stroke-width: 4px;   
 }
 #test-r {
+    animation: text 1s infinite;
 }
 #test-o {
-
+    animation: text 1s infinite;
+    animation-delay: .5s;
 }
 #test-b {
-
+    animation: text 1s infinite;
+    animation-delay: 1s;
 }
 #test-d {
-
+    animation: text 1s infinite;
+    animation-delay: 1.5s;
 }
 #test-rr {
-
+    animation: text 1s infinite;
+    animation-delay: 2s;
 }
 #test-u{
-
+    animation: text 1s infinite;
+    animation-delay: 2.5s;
 }
 #test-m {
-
+    animation: text 1s infinite;
+    animation-delay: 3s;
 }
 #test-s {
+    animation: text 1s infinite;
+    animation-delay: 3.5s;
+}
+@keyframes text {
+    to{stroke: rgb(255, 234, 0);
+        stroke-width: 4px;}
+}
 
-}
-#test-r:hover {
-    fill: rgb(254, 14, 14);
-}
-#test-o:hover {
-    fill: rgb(34, 199, 54);
-}
-#test-b:hover {
-    fill: rgb(255, 255, 0);
-}
-#test-d:hover {
-    fill: rgb(91, 141, 249);
-}
-#test-rr:hover {
-    fill: rgb(252, 0, 214);
-}
-#test-u:hover {
-    fill: rgb(48, 254, 250);
-}
-#test-m:hover {
-    fill: rgb(255, 183, 0);
-}
-#test-s:hover {
-    fill: rgb(111, 255, 98);
-}
 #circle {
     animation: circle 1s infinite;
 }
@@ -160,24 +149,20 @@ body{
     animation: signature 1s infinite;
 }
 @keyframes circle{
-    from{}
     to{stroke: rgb(255, 0, 0);
-        stroke-width: 6px;}
+        stroke-width: 4px;}
 }
 @keyframes drum{
-    from{}
-    to{stroke: rgb(223, 211, 80);
-        stroke-width: 6px;}
+    to{ stroke: rgb(255, 204, 0);
+        stroke-width: 4px;}
 }
 @keyframes crown{
-    from{}
-    to{stroke: rgb(63, 118, 186);
-        stroke-width: 6px;}
+    to{stroke: rgb(0, 115, 255);
+        stroke-width: 4px;}
 }
 @keyframes signature {
-    from{}
-    to{stroke: rgb(40, 138, 48);
-        stroke-width: 6px;}
+    to{stroke: rgb(47, 199, 60);
+        stroke-width: 4px;}
 }
 /*++++++ MAIN MENU STYLES - ICONS ONLY ++++++*/
 .menu-iconbar {
