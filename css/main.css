@@ -1,3 +1,10 @@
+/*++++++ FONT FAMILIES ++++++*/
+/* font-family: 'Shadows Into Light', cursive;
+font-family: 'Amatic SC', cursive;
+font-family: 'Gloria Hallelujah', cursive;
+font-family: 'Special Elite', cursive;
+font-family: 'Fredericka the Great', cursive; */
+
 body{
     margin: 0;
 }
@@ -12,42 +19,42 @@ body{
 }
 .social-bar-cont {
     width: 100%;
-    text-align: center;
+    text-align: right;
     /* border: solid 1px red; */
 }
 .social-bar-cont a {
     font-size: 32px;
+    margin-right: 2%;
 }
 .fa {
-  color: rgb(53, 53, 53);
+  color:#0077b5;
   width: 45px;
   text-decoration: none;
   margin: 6px 6px;
 }
 .fa-linkedin:hover {
-    color:#0077b5;
     animation: socialLink 1s 1;
 }
-.fa-youtube:hover {
+/* .fa-youtube:hover {
     color:#b31217;
     animation: socialYou 1s 1;
 }
 .fa-instagram:hover {
     color:#5f95c2 ;
     animation: socialInsta 1s 1;
-}
+} */
 @keyframes socialLink{
-    from  { transform: rotateY(0deg);}
-    to { transform: rotateY(-360deg);}  
+    from  {text-shadow: 0 0 22px #0077b5;}
+    to {}  
 }
-@keyframes socialYou {
+/* @keyframes socialYou {
     from  { transform: rotateY(0deg);}
     to { transform: rotateY(-360deg);}  
 }
 @keyframes socialInsta {
     from  { transform: rotateY(0deg);}
     to { transform: rotateY(-360deg);}   
-}
+} */
 
 /*++++++ MAIN PAGE STYLES ++++++*/
 .main-content {
@@ -84,7 +91,7 @@ body{
     background-color: #545454e9;
     background-size: cover;
     background-blend-mode: lighten;
-    width: 35%;
+    width: 40%;
     /* border: solid 1px black; */
 }
 
@@ -108,9 +115,35 @@ body{
 }
 #cowbell, #drumtop, #sticks, #cymbal {
     text-align: center;
-    padding: 0 6px 0 6px;
+    padding: 0 16px 0 16px;
     width: 8%;
     stroke: black;
     stroke-width: 1px;
     /* border: solid 1px orange; */
+}
+
+/*++++++ CONTACT FORM STYLES ++++++*/
+h1 {
+    font-family: 'Fredericka the Great', cursive;
+}
+input {
+    width: 25%;
+    padding: 12px 6px;
+    margin: 8px 0;
+}
+textarea {
+    width: 25%;
+    padding: 12px 6px;
+    margin: 8px 0;
+}
+input[type=submit] {
+    width: 25%;
+    font-family: 'Amatic SC', cursive;
+    color: wheat;
+    font-size: 24px;
+    background-color: rgb(47, 99, 177);
+}
+input[type=submit]:hover {
+    background-color: rgb(28, 68, 128);
+    cursor: pointer;
 }
