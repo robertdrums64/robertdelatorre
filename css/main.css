@@ -20,6 +20,7 @@ body{
 .social-bar-cont {
     width: 100%;
     text-align: center;
+    vertical-align: middle;
     /* border: solid 1px red; */
 }
 .social-bar-cont a {
@@ -107,6 +108,7 @@ body{
     position: relative;
     width: 100%;
     text-align: center;
+    vertical-align: middle;
     /* border: solid 1px green; */
 }
 .menu-iconbar-cont a {
@@ -116,7 +118,7 @@ body{
 #cowbell, #drumtop, #sticks, #cymbal {
     text-align: center;
     padding: 0 16px 0 16px;
-    width: 8%;
+    width: 4%;
     stroke: black;
     stroke-width: 1px;
     /* border: solid 1px orange; */
