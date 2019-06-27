@@ -101,28 +101,27 @@ body{
     stroke-width: 4px;   
 }
 #test-r {
-    fill: rgb(255, 255, 255);
 }
 #test-o {
-    fill: rgb(255, 255, 255);
+
 }
 #test-b {
-    fill: rgb(255, 255, 255);
+
 }
 #test-d {
-    fill: rgb(255, 255, 255);
+
 }
 #test-rr {
-    fill: rgb(255, 255, 255);
+
 }
 #test-u{
-    fill: rgb(255, 255, 255);
+
 }
 #test-m {
-    fill: rgb(255, 255, 255);
+
 }
 #test-s {
-    fill: rgb(255, 255, 255);
+
 }
 #test-r:hover {
     fill: rgb(254, 14, 14);
@@ -149,22 +148,37 @@ body{
     fill: rgb(111, 255, 98);
 }
 #circle {
-    stroke: rgb(255, 0, 0);
-    stroke-width: 4px;
+    animation: circle 1s infinite;
 }
 #drum {
-    stroke: rgb(223, 211, 80);
-    stroke-width: 4px;
+    animation: drum .5s infinite;
 }
 #crown {
-    stroke: rgb(63, 118, 186);
-    stroke-width: 4px;
+    animation: crown 1.5s infinite;
 }
 #signature {
-    stroke: rgb(40, 138, 48);
-    stroke-width: 4px;
+    animation: signature 1s infinite;
 }
-
+@keyframes circle{
+    from{}
+    to{stroke: rgb(255, 0, 0);
+        stroke-width: 6px;}
+}
+@keyframes drum{
+    from{}
+    to{stroke: rgb(223, 211, 80);
+        stroke-width: 6px;}
+}
+@keyframes crown{
+    from{}
+    to{stroke: rgb(63, 118, 186);
+        stroke-width: 6px;}
+}
+@keyframes signature {
+    from{}
+    to{stroke: rgb(40, 138, 48);
+        stroke-width: 6px;}
+}
 /*++++++ MAIN MENU STYLES - ICONS ONLY ++++++*/
 .menu-iconbar {
     position: absolute;
