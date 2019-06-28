@@ -89,12 +89,13 @@ body{
     left: 0;
     right: 0;
     margin: auto;
+    padding: 2% 2%;
     /* background-image: url("../images/robgif.gif"); */
     /* background-color: #545454e9; */
     background-size: cover;
     background-blend-mode: lighten;
     width: 45%;
-    /* border: solid 1px black; */
+    border: solid 1px black;
 }
 .text {
     stroke: rgb(18, 18, 18);
@@ -195,6 +196,7 @@ body{
 /*++++++ CONTACT FORM STYLES ++++++*/
 h1 {
     font-family: 'Fredericka the Great', cursive;
+    font-size: 24px;
 }
 label {
     font-family: 'Amatic SC', cursive;
