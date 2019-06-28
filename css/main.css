@@ -95,49 +95,56 @@ body{
     background-size: cover;
     background-blend-mode: lighten;
     width: 45%;
-    border: solid 1px black;
+    /* border: solid 1px black; */
 }
+#main-svg-cont:hover {
+    stroke: white;
+    stroke-width: 24px;
+    transition: stroke-width 5s ease-out;
+}
+
 .text {
     stroke: rgb(18, 18, 18);
     stroke-width: 4px;   
 }
 #test-r {
-    animation: text 1s infinite;
-}
-#test-o {
-    animation: text 1s infinite;
+    animation: text 1s 1;
     animation-delay: .5s;
 }
-#test-b {
-    animation: text 1s infinite;
+#test-o {
+    animation: text 1s 1;
     animation-delay: 1s;
 }
-#test-d {
-    animation: text 1s infinite;
+#test-b {
+    animation: text 1s 1;
     animation-delay: 1.5s;
 }
-#test-rr {
-    animation: text 1s infinite;
+#test-d {
+    animation: text 1s 1;
     animation-delay: 2s;
 }
-#test-u{
-    animation: text 1s infinite;
+#test-rr {
+    animation: text 1s 1;
     animation-delay: 2.5s;
 }
-#test-m {
-    animation: text 1s infinite;
+#test-u{
+    animation: text 1s 1;
     animation-delay: 3s;
 }
-#test-s {
-    animation: text 1s infinite;
+#test-m {
+    animation: text 1s 1;
     animation-delay: 3.5s;
 }
+#test-s {
+    animation: text 1s 1;
+    animation-delay: 4s;
+}
 @keyframes text {
-    to{stroke: rgb(255, 234, 0);
-        stroke-width: 4px;}
+    to{stroke: rgb(255, 255, 255);
+        stroke-width: 2px;}
 }
 
-#circle {
+/* #circle {
     animation: circle 1s infinite;
 }
 #drum {
@@ -164,7 +171,7 @@ body{
 @keyframes signature {
     to{stroke: rgb(47, 199, 60);
         stroke-width: 4px;}
-}
+} */
 /*++++++ MAIN MENU STYLES - ICONS ONLY ++++++*/
 .menu-iconbar {
     position: absolute;
