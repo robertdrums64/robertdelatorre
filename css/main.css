@@ -221,14 +221,16 @@ textarea {
     margin: 8px 0;
 }
 input[type=submit] {
-    width: 45%;
+    width: 25%;
     font-family: 'Amatic SC', cursive;
     font-weight: bold;
-    color: wheat;
+    color: white;
     font-size: 24px;
     background-color: rgb(47, 99, 177);
+    border: solid 2px rgba(22, 22, 22, 0.32);
 }
 input[type=submit]:hover {
-    background-color: rgb(28, 68, 128);
+    background-color: rgb(173, 26, 26);
     cursor: pointer;
+    border: solid 2px rgba(22, 22, 22, 0.32);
 }
