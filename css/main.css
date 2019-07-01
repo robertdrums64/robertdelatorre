@@ -34,23 +34,38 @@ body{
 }
 .fa-linkedin:hover {
     color:#0077b5;
-    animation: socialLink 1s 1;
+    -webkit-animation: socialLink 1s 1;
+            animation: socialLink 1s 1;
 }
 .fa-youtube:hover {
     color:#b31217;
-    animation: socialYou 1s 1;
+    -webkit-animation: socialYou 1s 1;
+            animation: socialYou 1s 1;
 }
 .fa-instagram:hover {
     color:#5f95c2;
-    animation: socialInsta 1s 1;
+    -webkit-animation: socialInsta 1s 1;
+            animation: socialInsta 1s 1;
+}
+@-webkit-keyframes socialLink{
+    from  {text-shadow: 0 0 22px #0077b5;}
+    to {}  
 }
 @keyframes socialLink{
     from  {text-shadow: 0 0 22px #0077b5;}
     to {}  
 }
+@-webkit-keyframes socialYou {
+    from  {text-shadow: 0 0 22px #b31217;}
+    to {} 
+}
 @keyframes socialYou {
     from  {text-shadow: 0 0 22px #b31217;}
     to {} 
+}
+@-webkit-keyframes socialInsta {
+    from  {text-shadow: 0 0 22px #5f95c2;}
+    to {}   
 }
 @keyframes socialInsta {
     from  {text-shadow: 0 0 22px #5f95c2;}
@@ -100,6 +115,7 @@ body{
 #main-svg-cont:hover {
     stroke: white;
     stroke-width: 24px;
+    -webkit-transition: stroke-width 5s ease-out;
     transition: stroke-width 5s ease-out;
 }
 
@@ -108,36 +124,56 @@ body{
     stroke-width: 4px;   
 }
 #test-r {
-    animation: text 1s 1;
-    animation-delay: .5s;
+    -webkit-animation: text 1s 1;
+            animation: text 1s 1;
+    -webkit-animation-delay: .5s;
+            animation-delay: .5s;
 }
 #test-o {
-    animation: text 1s 1;
-    animation-delay: 1s;
+    -webkit-animation: text 1s 1;
+            animation: text 1s 1;
+    -webkit-animation-delay: 1s;
+            animation-delay: 1s;
 }
 #test-b {
-    animation: text 1s 1;
-    animation-delay: 1.5s;
+    -webkit-animation: text 1s 1;
+            animation: text 1s 1;
+    -webkit-animation-delay: 1.5s;
+            animation-delay: 1.5s;
 }
 #test-d {
-    animation: text 1s 1;
-    animation-delay: 2s;
+    -webkit-animation: text 1s 1;
+            animation: text 1s 1;
+    -webkit-animation-delay: 2s;
+            animation-delay: 2s;
 }
 #test-rr {
-    animation: text 1s 1;
-    animation-delay: 2.5s;
+    -webkit-animation: text 1s 1;
+            animation: text 1s 1;
+    -webkit-animation-delay: 2.5s;
+            animation-delay: 2.5s;
 }
 #test-u{
-    animation: text 1s 1;
-    animation-delay: 3s;
+    -webkit-animation: text 1s 1;
+            animation: text 1s 1;
+    -webkit-animation-delay: 3s;
+            animation-delay: 3s;
 }
 #test-m {
-    animation: text 1s 1;
-    animation-delay: 3.5s;
+    -webkit-animation: text 1s 1;
+            animation: text 1s 1;
+    -webkit-animation-delay: 3.5s;
+            animation-delay: 3.5s;
 }
 #test-s {
-    animation: text 1s 1;
-    animation-delay: 4s;
+    -webkit-animation: text 1s 1;
+            animation: text 1s 1;
+    -webkit-animation-delay: 4s;
+            animation-delay: 4s;
+}
+@-webkit-keyframes text {
+    to{stroke: rgb(255, 255, 255);
+        stroke-width: 2px;}
 }
 @keyframes text {
     to{stroke: rgb(255, 255, 255);

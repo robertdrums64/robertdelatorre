@@ -24,28 +24,46 @@ animation: logoAction 5s forwards;
 
 /*++++++ MAIN MENU SVG ANIMATIONS ++++++*/
 #cowbell:hover {
-    animation: cowBell 0.2s 3;
+    -webkit-animation: cowBell 0.2s 3;
+            animation: cowBell 0.2s 3;
+}
+@-webkit-keyframes cowBell{
+    50%  { -webkit-transform: rotate(10deg); transform: rotate(10deg); }
+    100%  { -webkit-transform: rotate(-10deg); transform: rotate(-10deg); }
 }
 @keyframes cowBell{
-    50%  { transform: rotate(10deg); }
-    100%  { transform: rotate(-10deg); }
+    50%  { -webkit-transform: rotate(10deg); transform: rotate(10deg); }
+    100%  { -webkit-transform: rotate(-10deg); transform: rotate(-10deg); }
 }
 #drumtop:hover {
-    animation: drumTop 0.3s 2;
+    -webkit-animation: drumTop 0.3s 2;
+            animation: drumTop 0.3s 2;
+}
+@-webkit-keyframes drumTop {
+    100% { -webkit-transform: scale(0.8); transform: scale(0.8); }
 }
 @keyframes drumTop {
-    100% { transform: scale(0.8); }
+    100% { -webkit-transform: scale(0.8); transform: scale(0.8); }
 }
 #sticks:hover {
-    animation: sticksSpin 0.5s 1;
+    -webkit-animation: sticksSpin 0.5s 1;
+            animation: sticksSpin 0.5s 1;
+}
+@-webkit-keyframes sticksSpin {
+    to { -webkit-transform: rotate(360deg); transform: rotate(360deg); }
 }
 @keyframes sticksSpin {
-    to { transform: rotate(360deg); }
+    to { -webkit-transform: rotate(360deg); transform: rotate(360deg); }
 }
 #cymbal:hover {
-    animation: cymbalShake 0.2s 2;
+    -webkit-animation: cymbalShake 0.2s 2;
+            animation: cymbalShake 0.2s 2;
+}
+@-webkit-keyframes cymbalShake {
+    50%  { -webkit-transform: rotateX(60deg); transform: rotateX(60deg);}
+   100% { -webkit-transform: rotateX(-60deg); transform: rotateX(-60deg);}  
 }
 @keyframes cymbalShake {
-    50%  { transform: rotateX(60deg);}
-   100% { transform: rotateX(-60deg);}  
+    50%  { -webkit-transform: rotateX(60deg); transform: rotateX(60deg);}
+   100% { -webkit-transform: rotateX(-60deg); transform: rotateX(-60deg);}  
 }
