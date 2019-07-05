@@ -105,25 +105,17 @@ body{
     right: 0;
     margin: auto;
     padding: 2% 2%;
-    /* background-image: url("../images/robgif.gif"); */
-    /* background-color: #545454e9; */
     background-size: cover;
     background-blend-mode: lighten;
-    width: 45%;
-    /* border: solid 1px black; */
-}
-#main-svg-cont:hover {
-    stroke: white;
-    stroke-width: 24px;
-    -webkit-transition: stroke-width 5s ease-out;
-    transition: stroke-width 5s ease-out;
+    width: 35%;
+    cursor: pointer;
 }
 
 .text {
     stroke: rgb(18, 18, 18);
     stroke-width: 4px;   
 }
-#test-r {
+/* #test-r {
     -webkit-animation: text 1s 1;
             animation: text 1s 1;
     -webkit-animation-delay: .5s;
@@ -178,7 +170,7 @@ body{
 @keyframes text {
     to{stroke: rgb(255, 255, 255);
         stroke-width: 2px;}
-}
+} */
 
 /* #circle {
     animation: circle 1s infinite;
